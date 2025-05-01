@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: docs 
+
+website:
+  title: "interactive widgets"
+  navbar:
+    left:
+      - text: "Area crime visualization"
+        file: data analysis.ipynb
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    echo: false
+
+
+
